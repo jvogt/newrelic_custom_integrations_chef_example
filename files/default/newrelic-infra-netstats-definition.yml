@@ -1,0 +1,10 @@
+name: com.newrelic.tcp
+protocol_version: 1
+
+description: Reports number of connections on POS Simphony App Servers
+commands:
+  metrics:
+    interval: 60
+    command:
+      - C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe
+      - .\newrelic-infra-netstats\pstcp.ps1

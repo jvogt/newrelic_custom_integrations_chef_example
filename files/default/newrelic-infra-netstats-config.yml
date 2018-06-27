@@ -1,0 +1,7 @@
+#
+# New Relic Infrastructure NetStats Integration
+#
+integration_name: com.newrelic.tcp
+instances:
+  - name: tcp
+    command: metrics
